@@ -19,7 +19,7 @@ console.log(typeof(name));//same as the above
 console.log(typeof null);// the type of null is object
 
 
-//data type conversionOperations
+//data type conversion Operations
 let score="44"
  console.log(typeof score); //print the datatype
 
