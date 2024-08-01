@@ -42,4 +42,21 @@ console.log(arr1.splice(1,3,3,5,7)); // here elements of index 1,2,3 are replace
 console.log(arr1);
 
 
+//Concat & Spread
+// concat Helps to join to different arrays and store it in new arrays.
+
+const heros = ["iron Man", "Vision" , "Spider Man"];
+const villian = ["ultron", "thanos", "loki"];
+// const marvel = heros.concat(villian);
+// console.log(marvel);
+
+// Spread (...) expands the elements of the arrays into indidual elements.
+ 
+const marvel1 = [...heros,...villian];
+console.log(marvel1);
+
+//convert to array
+
+console.log(Array.from("moon"));
+console.log(Array.of(23,24,25));
 
